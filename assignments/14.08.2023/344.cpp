@@ -2,6 +2,7 @@
 #include<vector>
 using namespace std;
 class Solution {
+    
 public:
     void reverseString(vector<char>& s) {
         reverseHelper(s, 0, s.size() - 1);
